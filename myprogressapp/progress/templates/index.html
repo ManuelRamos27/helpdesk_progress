@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Help Desk Analyst Progress Tracker</title>
+</head>
+<body>
+  <header>
+    <h1>Help Desk Analyst Progress Tracker</h1>
+  </header>
+  <nav>
+    <ul>
+      <li><a href="#current-week">Current Week</a></li>
+      <li><a href="#previous-weeks">Previous Weeks</a></li>
+    </ul>
+  </nav>
+  <main>
+    <section id="current-week">
+      <h2>Current Week</h2>
+      <p>Track your progress for the current week here</p>
+      <form action="submit-progress.php" method="post">
+        <label for="number-of-tickets">Number of Tickets:</label>
+        <input type="number" id="number-of-tickets" name="number-of-tickets">
+        <br><br>
+        <label for="average-resolution-time">Average Resolution Time (minutes):</label>
+        <input type="number" id="average-resolution-time" name="average-resolution-time">
+        <br><br>
+        <input type="submit" value="Submit">
+      </form>
+    </section>
+    <section id="previous-weeks">
+      <h2>Previous Weeks</h2>
+      <p>View your progress for previous weeks here</p>
+      <table>
+        <tr>
+          <th>Week</th>
+          <th>Number of Tickets</th>
+          <th>Average Resolution Time (minutes)</th>
+        </tr>
+        <tr>
+          <td>Week 1</td>
+          <td>50</td>
+          <td>20</td>
+        </tr>
+        <tr>
+          <td>Week 2</td>
+          <td>45</td>
+          <td>22</td>
+        </tr>
+        <!-- Add additional rows for each previous week -->
+      </table>
+    </section>
+  </main>
+  <footer>
+    <p>Copyright &copy; Manuel Ramos</p>
+  </footer>
+</body>
+</html>
