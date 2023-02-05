@@ -1,4 +1,4 @@
-# Helpdesk Project Tracking
+# Helpdesk Progress Tracking
 
 ## Introduction
 This is a self evaluation project to track my progress as a Helpdesk Analyst. This Readme will serve as a documentation of my skills and achievements, allowing me to reflect on my growth and identify areas for improvement.
